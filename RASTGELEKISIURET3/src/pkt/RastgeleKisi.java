@@ -18,10 +18,10 @@ public class RastgeleKisi {
 	
 	public String YeniKisiUret() {
 		String YeniKisi= kimlikNo.KimlikNoUret() 
-				+ "  "+ kisi.Kisi() 
-				+ "  " + yas.YasUret() 
-				+ "  " + tel.TelUret()
-				+ " (" + imei.IMEIUret() + ")";
+				+ "\t"+ kisi.Kisi() 
+				+ "\t\t" + yas.YasUret() 
+				+ "\t" + tel.TelUret()
+				+ "\t(" + imei.IMEIUret() + ")";
 		return YeniKisi;
 		
 	}

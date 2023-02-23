@@ -18,26 +18,31 @@ public class KimlikNo {
 	 public String KimlikNoUret() {
 	        KimlikNo = "";
 	        int Dizi[] = new int[11], tmp = 0;
-	        Dizi[0]=rnd.nextInt(9) + 1;
-	        for (int indeks = 1; indeks < 10; indeks++) {
-	                Dizi[indeks] = rnd.nextInt(9);
+	        Dizi[0]=rnd.nextInt(9)+1;
+	        for (int indeks = 1; indeks < 9; indeks++) {
+	                Dizi[indeks] = rnd.nextInt(10);
 	        }
 	        for (int indeks = 0; indeks < 9; indeks+=2) {
 	        	tekler+=Dizi[indeks];
 	        }
-	        for (int indeks = 1; indeks < 9; indeks+=2) {
+	        for (int indeks = 1; indeks < 8; indeks+=2) {
 	        	ciftler+=Dizi[indeks];
 	        }
-	        Dizi[9] = ((tekler * 7) - ciftler) % 10;
+	        Dizi[9] = (tekler * 7 - ciftler) % 10;
 	        
-	        for (int i = 0; i <= 9; i++) {
-	            tmp += Dizi[i];
-	        }
+	        tmp=tekler+ciftler+Dizi[9];
+	        //for (int i = 0; i <10; i++) {
+	          //  tmp += Dizi[i];
+	        //}
 	        Dizi[10] = tmp % 10;
 	        for (int j = 0; j < 11; j++) {
-	            KimlikNo += Dizi[j];
+	            KimlikNo += Dizi[j];  
 	        }
+	        tekler=0;
+	        ciftler=0;
+	        tmp=0;
 	        return KimlikNo;
+	        
 	       	}
 	 
 	 public static String KimlikKontrol(String KimlikNo) {

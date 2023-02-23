@@ -1,16 +1,7 @@
-package pkt2;
+package pkt;
 
 import java.util.Scanner;
 
-import pkt.RastgeleKisi;
-/**
-*
-* @author Fatih ERİŞEN ve erisenfatih@gmail.com
-* @since 14.12.2022
-* <p>
-* Bu sınıfta RastgeleKisi paketi kullanılarak istenen sayıda rastgele kişi oluşturan paket eklenmiştir.
-* </p>
-*/
 public class Program {
 
 	public static void main(String[] args) {
@@ -27,6 +18,8 @@ public class Program {
 			if (secim==1) {
 				System.out.println("Rastgele üretilecek kişi sayısını giriniz: ");
 				KisiSayisi=in.nextInt();
+				System.out.println("Kimlik No \t Ad - Soyad \t\t Yaş \t Telefon \t IMEI No");
+				System.out.println("-----------------------------------------------------------------------------");
 				for (int i=1; i<KisiSayisi; i++) {
 					System.out.println(YeniKisi.YeniKisiUret());
 				}
@@ -41,5 +34,3 @@ public class Program {
 
 	}
 }
-
-
