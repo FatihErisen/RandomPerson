@@ -28,3 +28,4 @@ RastgeleKisi sınıfında yukarıdaki diğer 5 sınıfın birer elemanı oluştu
 
 ## Ekran Görüntüsü 
 
+![rasgelekisi](https://user-images.githubusercontent.com/122473354/220989497-53a81a5a-56d8-412d-9e64-518c940aec40.png)
