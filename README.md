@@ -24,7 +24,9 @@ IMEINo sınıfında Imei Numarası Algoritmasına uygun rastgele Imei numaralar�
 RastgeleKisi sınıfında yukarıdaki diğer 5 sınıfın birer elemanı oluşturularak YeniKisi isimli String değere eklendi ve YeniKisi değeri döndürüldü. 
 
 ## Test Uygulaması 
-RASTGELEKISIURET.jar  kütüphanesi içe aktarılarak kullanılabilir. 
+RASTGELEKISIURET.jar  kütüphanesi içe aktarılarak kullanılabilir.
 
-Uygulama Ekran Görüntü:
-![](https://github.com/FatihErisen/RasgeleKisi/blob/main/rasgelekisi.)
+### Ekran Görüntüsü
+
+
+![rasgelekisi](https://user-images.githubusercontent.com/122473354/220963023-95ec2859-90de-4453-bb70-7f1cfafbd9e1.png)
