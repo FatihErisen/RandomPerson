@@ -25,8 +25,3 @@ RastgeleKisi sınıfında yukarıdaki diğer 5 sınıfın birer elemanı oluştu
 
 ## Test Uygulaması 
 RASTGELEKISIURET.jar  kütüphanesi içe aktarılarak kullanılabilir.
-
-### Ekran Görüntüsü
-
-
-![rasgelekisi](https://user-images.githubusercontent.com/122473354/220963023-95ec2859-90de-4453-bb70-7f1cfafbd9e1.png)
